@@ -10,10 +10,10 @@ int _abs(int c)
 {
 if (c < 0)
 { 
-int abs_val;
+int abs;
 
-abs_val = c * -1;
-return (abs_val);
+abs = c * -1;
+return (abs);
 }
 return (c);
 }
